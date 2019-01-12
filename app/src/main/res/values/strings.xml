@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Itel-Service app</string>
+    <string name="logo">logo</string>
+    <string name="login">login</string>
+    <string name="LoginHint">Введите логин</string>
+    <string name="passwordHint">Введите пароль</string>
+    <string name="LoginButton">Войти</string>
+    <string name="Copyright">2019 © Itel-Service</string>
+    <string name="loginCheckBox">Запомнить меня</string>
+</resources>
