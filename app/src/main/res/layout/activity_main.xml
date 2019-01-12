@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <EditText
-            android:id="@+id/lgn"
+            android:id="@+id/loginField"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -71,7 +71,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/pswrd"
+            android:id="@+id/pswrdField"
             android:layout_width="0dp"
             android:layout_height="36dp"
             android:layout_marginStart="8dp"
@@ -89,10 +89,10 @@
             android:textColorHint="@color/textColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/lgn" />
+            app:layout_constraintTop_toBottomOf="@+id/loginField" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_login"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="8dp"
@@ -104,7 +104,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.53"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pswrd" />
+            app:layout_constraintTop_toBottomOf="@+id/pswrdField" />
 
         <CheckBox
             android:id="@+id/loginCheckBox"
@@ -115,7 +115,7 @@
             android:text="@string/loginCheckBox"
             android:textColor="@color/textColor"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/button_login" />
 
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>
